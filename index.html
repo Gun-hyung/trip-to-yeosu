@@ -6,14 +6,61 @@
     <meta name="description" content="Welcome to my Trip to Yeosu">
     <title>Trip to Yeosu</title>
     <link href="styles.css" rel="stylesheet">
+    <style>
+      body,html{
+        padding: 0;
+        margin: 0;
+        background-color: white;
+        height: 200%;
+      }
+        .father{
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          height: 150px;
+          width: 100%;
+          flex-direction: row;
+        }
+        .box{
+          background-color: blue;
+          width: 250px;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-size: 20px;
+        }
+        .boxOne{
+          background-color: white;
+          width: 300px;
+          height: 50px;
+          border: 2px solid orange;
+          color: grey;
+          position: fixed;
+          bottom: 300px;
+          margin: 10px;
+        }
+    </style>
   </head>
   <body>
+    <div class="father">
+      <div class="box">Home</div>
+      <div class="box">Transportations</div>
+      <div class="box">Restaurants</div>
+      <div class="box">Amenities</div>
+      <div class="box">Accomodations</div>
+      <div class="box">Contacts</div>
+    </div>
+    <div class="boxOne"><a href="itinerary.html">Itinerary</a></div>
+    <div class="boxOne"><a href="Accomodation.html">Accomodation</a></div>
+    <div class="boxOne"><a href="http://www.yeosuvenezia.com/" target="_blank">This is where we wil stay in Yeosu</a></div>
     <h1>Trip to Yeosu with family</h1>
     <p>I'm going to collect all information about trip to Yeosu and make a plan to go to Yeosu in this web page</p>
-    <a href="http://www.yeosuvenezia.com/">This is where we wil stay in Yeosu</a>
-    <a href="itinerary.html">Trip to Yeosu - Itinerary</a>
-
-
+    <a href="http://www.yeosuvenezia.com/" target="_blank">This is where we wil stay in Yeosu</a><br/>
+    <a href="itinerary.html">Itinerary</a><br/>
+    <a href="Accomodation.html">Accomodation</a><br/>
+    <img src="C:\Users\건형\Documents\trip-to-yeosu\yeosuexpo.jpg">
   </body>
 
-</html>
+  </html>
